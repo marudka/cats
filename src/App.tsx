@@ -52,5 +52,5 @@ const mapDispatchToProps = {
   fetchCats: catsActions.fetch
 }
 
-const dupa = connect(mapStateToProps, mapDispatchToProps)(App)
-export default dupa;
+const AppConnected = connect(mapStateToProps, mapDispatchToProps)(App)
+export default AppConnected;
